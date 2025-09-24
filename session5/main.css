@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/*
+    transform
+    keyframe
+*/
+
+body {
+  height: 4000px;
+}
+
+
+.item {
+  width: 400px;
+  height: 400px;
+  background: gray;
+  margin: 100px auto;
+  position: relative;
+  overflow: hidden;
+}
+.item:hover .circle {
+    left: -80px;
+  bottom: -80px;
+}
+.item:hover img {
+  scale: 1;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+  scale:1.2;
+  transition: 1s;
+}
+.circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: blue;
+  position: absolute;
+  left: -300px;
+  bottom: -300px;
+  transition: 1s;
+}
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: gray;
+  margin: 100px auto;
+  transition: 1s;
+} */
+
+/* .box:hover { */
+  /* transform: rotate(360deg) scale(2) skew(50deg); */
+  /* transform: scale(1.2); */
+  /* transform: skew(-100deg); */
+  /* transform: translate(-100px,-100px); */
+  /* rotate: 50deg; */
+  /* scale: 1.2 1.2; */
+  /* translate: 100px; */
+  /* transform:matrix(1.05,-1.34,1.22,0.06,2,0); */
+
+
+/* } */
+
+/* 
+
+.container {
+  width: 300px;
+  height: 300px;
+  background: black;
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgb(209, 209, 209);
+  position: fixed;
+  top:100px;
+  left: 0;
+} */
+
+
+ /* .item {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 128, 0, 0.338);
+  position: absolute;
+  top: 100px;
+  right: 200px;
+} */
+
+
+/* .service {
+  width: 90%;
+  margin: auto;
+}
+.room {
+  width: 20%;
+  height: 100%;
+  float: left;
+  margin-left: 4%;
+}
+.room-img , .room-content {
+  width: 100%;
+}
+.room-img {
+  height: 50%;
+  position: relative;
+}
+.room-img img {
+  width: 100%;
+  height: 100%;
+}
+.room-content {
+  height: 50%;
+  text-align: center;
+}
+.room-img button {
+  position: absolute;
+  bottom: 20px;
+  left: 30%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background: gold;
+} */
