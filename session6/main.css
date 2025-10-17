@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/*
+    keyframe
+*/
+
+/* .test {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  background: gray;
+  animation: testframe 10s infinite;
+} 
+
+
+@keyframes testframe {
+  0% {background: gray;transform: rotate(200deg);}
+  20% {background: black;transform: scale(2,2);}
+  40% {background: blue;transform: translate(200px);}
+  60% {background: yellow;transform: skew(50deg);}
+  80% {background: red;transform: rotate(-306deg);}
+  100% {background: green;transform: scale(0.5);}
+} */
+
+/* .pointer {
+  width: 30px;
+  height: 55px;
+  margin: 200px auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: black;
+  animation: upanddown 1s infinite;
+}
+
+@keyframes upanddown {
+  from { top: 20%;}
+  to { top: 60%;opacity: 0;}
+} */
+
+/* .word {
+  overflow: hidden;
+  text-wrap: nowrap;
+  height: 40px;
+  margin: 100px auto;
+  font-size: 40px;
+  animation: typing 1.5s infinite steps(11);
+  border-right: 2px solid black;
+}
+
+@keyframes typing {
+    from {width: 0px;}
+    to {width: 250px;}
+} */
