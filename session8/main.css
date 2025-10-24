@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+/* .container {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item {
+  width: 22%;
+  background: blue;
+} */
+ body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+ }
+.navbar {
+  width: 90%;
+  height: 70px;
+  background: white;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navbar-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-links {
+  width: 77%;
+  height: 100%;
+}
+.navbar-links-mobile{
+   width: 50%;
+  height: 100%;
+  display: none;
+}
+.navbar-links-mobile i {
+  font-size: 30px;
+  color: gold; 
+}
+.navbar-links ul li {
+  display: inline-block;
+  margin: 2% 4%;
+  list-style-type: none;
+}
+.navbar-links ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+@media (min-width:0) and (max-width:450px) {
+  /* .item {
+    width: 90%;
+    margin-bottom: 10px;
+  } */
+   .navbar-links {
+      display: none;
+   }
+    .navbar-links-mobile{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+  }
+}
+
+
+@media (min-width:451px) and (max-width:1000px) {
+ /* .item {
+    width: 40%;
+        margin-bottom: 10px;
+
+  } */
+
+     .navbar-links {
+    display: none;
+   }
+    .navbar-links-mobile{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+
+  }
+}
